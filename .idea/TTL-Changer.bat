@@ -28,6 +28,9 @@ if not "%1"=="am_admin" (
 	for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
                                                         
 
+
+
+
 	:: Display current TTL value
 	echo --------------------------------------------------------------
 	echo  Current %ttl%
