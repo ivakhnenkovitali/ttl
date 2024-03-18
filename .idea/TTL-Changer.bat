@@ -34,6 +34,7 @@ if not "%1"=="am_admin" (
 	:: Display current TTL value
 	echo --------------------------------------------------------------
 	echo  Current %ttl%
+
 	echo --------------------------------------------------------------
 	echo.
 	echo [1] 60 (bypass)
