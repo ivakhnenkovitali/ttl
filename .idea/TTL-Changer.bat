@@ -2,6 +2,8 @@
 title TTL Changer 1.4 - AzimsTech
 color 1f
 
+
+
 :: Check if it running as administator. If not, then prompt an administator request
 if not "%1"=="am_admin" (
     TIMEOUT 2 > NUL
