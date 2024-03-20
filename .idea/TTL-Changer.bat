@@ -15,6 +15,7 @@ if not "%1"=="am_admin" (
 
 :MENU
 	CLS
+
 	:: Get current TTL value from localhost
 	for /f "tokens=6" %%i in ('ping -n 1 127.0.0.1^|find "TTL"') do set ttl="%%i"
 
